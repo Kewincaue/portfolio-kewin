@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kewin Cauê — Desenvolvedor</title>
-<meta name="description" content="Portfólio de Kewin Cauê: projetos iniciantes feitos sozinho e produtos construídos com ajuda de IA (Claude Code).">
+<meta name="description" content="Portfólio de Kewin Cauê: projetos iniciantes e produtos construídos com ajuda de IA (Claude Code).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     <div class="container hero__grid">
       <div>
         <p class="eyebrow"><span class="dot-live"></span> Desenvolvedor Web · São Paulo, Brasil</p>
-        <h1>Aprendi a programar sozinho.<br>Hoje construo produtos completos <span class="grad-text">com ajuda de IA.</span></h1>
+        <h1>Comecei do zero, testando e errando.<br>Hoje construo produtos completos <span class="grad-text">com ajuda de IA.</span></h1>
         <p class="hero__lead">
           Comecei com HTML, CSS e JavaScript puro, testando ideias simples. Hoje uso IA (Claude Code) como parte real
           do meu processo de desenvolvimento — da arquitetura ao deploy — para construir sistemas web, apps mobile e
@@ -314,13 +314,9 @@
 
         <!-- Inventário NR-33/35 -->
         <div class="project-row">
-          <div class="project-row__media card__media--phones">
-            <div class="phone-frame">
-              <img src="assets/img/projects/inventario-nr33-01.png" alt="Tela de login do app Inventário NR-33">
-            </div>
-            <div class="phone-frame">
-              <img src="assets/img/projects/inventario-nr33-02.png" alt="Formulário de cadastro de espaço confinado">
-            </div>
+          <div class="project-row__media project-row__media--gallery">
+            <img src="assets/img/projects/inventario-nr33-01.png" alt="Tela de login do app Inventário NR-33">
+            <img src="assets/img/projects/inventario-nr33-02.png" alt="Formulário de cadastro de espaço confinado">
           </div>
           <div class="project-row__body">
             <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
@@ -342,13 +338,9 @@
 
         <!-- Memoir -->
         <div class="project-row">
-          <div class="project-row__media card__media--phones">
-            <div class="phone-frame">
-              <img src="assets/img/projects/memoir-login.jpg" alt="Tela de login do app Memoir">
-            </div>
-            <div class="phone-frame">
-              <img src="assets/img/projects/memoir-dashboard.jpg" alt="Tela inicial do app Memoir mostrando dias juntos e ações rápidas do casal">
-            </div>
+          <div class="project-row__media project-row__media--gallery">
+            <img src="assets/img/projects/memoir-login.jpg" alt="Tela de login do app Memoir">
+            <img src="assets/img/projects/memoir-dashboard.jpg" alt="Tela inicial do app Memoir mostrando dias juntos e ações rápidas do casal">
           </div>
           <div class="project-row__body">
             <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
@@ -515,7 +507,9 @@
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
   <button class="lightbox__close" id="lightbox-close" aria-label="Fechar">✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Foto anterior">‹</button>
   <img class="lightbox__img" id="lightbox-img" src="" alt="">
+  <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Próxima foto">›</button>
 </div>
 
 <script src="js/script.js"></script>
