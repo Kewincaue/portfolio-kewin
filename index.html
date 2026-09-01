@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kewin Cauê — Desenvolvedor</title>
+<meta name="description" content="Portfólio de Kewin Cauê: projetos iniciantes feitos sozinho e produtos construídos com ajuda de IA (Claude Code).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="nav__logo">Kewin<span>.</span>Cauê</a>
+    <nav class="nav__links">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos-ia">Projetos com IA</a>
+      <a href="#projetos-iniciais">Projetos iniciais</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn--sm btn--primary">Contato</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <p class="eyebrow"><span class="dot-live"></span> Desenvolvedor Web · São Paulo, Brasil</p>
+        <h1>Aprendi a programar sozinho.<br>Hoje construo produtos completos <span class="grad-text">com ajuda de IA.</span></h1>
+        <p class="hero__lead">
+          Comecei com HTML, CSS e JavaScript puro, testando ideias simples. Hoje uso IA (Claude Code) como parte real
+          do meu processo de desenvolvimento — da arquitetura ao deploy — para construir sistemas web, apps mobile e
+          automações completas, com mais velocidade e qualidade.
+        </p>
+        <div class="hero__actions">
+          <a href="#projetos-ia" class="btn btn--primary">Ver projetos com IA</a>
+          <a href="#projetos-iniciais" class="btn btn--ghost">Ver projetos iniciais</a>
+        </div>
+        <div class="hero__socials">
+          <a href="https://github.com/Kewincaue" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/kewin-cau%C3%AA/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://wa.me/5519993025141" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal__bar">
+          <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+          <span class="terminal__title">kewin@dev — zsh</span>
+        </div>
+        <div class="terminal__body" id="terminal-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <p class="eyebrow-mono">// 01 — sobre</p>
+      <div class="about">
+        <div class="about__text">
+          <h2 class="section__title">Sobre a virada de chave</h2>
+          <p>
+            No início, aprendi programação do jeito manual: lendo documentação, testando em pequenos projetos e
+            fixando conceitos com JavaScript puro. Esses projetos estão guardados abaixo, sem retoques — é onde tudo
+            começou.
+          </p>
+          <p>
+            Nos últimos meses passei a desenvolver com IA como parceira ativa de trabalho: eu defino arquitetura,
+            escopo, decisões técnicas e faço a revisão de cada entrega — a IA acelera a escrita de código, sugere
+            abordagens e ajuda a manter qualidade em projetos maiores do que eu conseguiria sozinho no mesmo tempo.
+            O resultado é a seção de projetos com IA logo abaixo: sistemas web completos, apps mobile e produtos de
+            automação, todos com deploy real.
+          </p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <strong>2020</strong>
+            <span>Primeiro repositório no GitHub</span>
+          </div>
+          <div class="stat">
+            <strong>9</strong>
+            <span>Produtos construídos com IA em 2026</span>
+          </div>
+          <div class="stat">
+            <strong>Full-stack</strong>
+            <span>Web, mobile e automação</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS COM IA -->
+  <section class="section section--alt" id="projetos-ia">
+    <div class="container">
+      <p class="eyebrow-mono">// 02 — projetos com ia</p>
+      <span class="ai-tag">🤖 Construído com ajuda de IA</span>
+      <h2 class="section__title">Projetos com ajuda de IA</h2>
+      <p class="section__lead">
+        Todos os projetos abaixo foram desenvolvidos com <strong>Claude Code</strong> como parceiro de
+        desenvolvimento: eu conduzo arquitetura, decisões de produto e revisão técnica; a IA acelera implementação,
+        debugging e boa parte do código. Nenhum é "gerado e pronto" — todos passaram por testes, ajustes e, na
+        maioria dos casos, deploy em produção.
+      </p>
+
+      <!-- Sistemas Web -->
+      <h3 class="subgroup-title"><span class="subgroup-num">01</span> Sistemas web</h3>
+      <div class="projects-list">
+
+        <!-- SafeSST -->
+        <div class="project-row">
+          <div class="project-row__media card__media--browser">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">app.safesst.com.br</span>
+            </div>
+            <img src="assets/img/projects/safesst-login.jpg" alt="Tela de login do sistema SafeSST">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>SafeSST</h3>
+            <p class="card__tagline">Sistema completo de gestão de Segurança do Trabalho</p>
+            <p class="card__desc">
+              Plataforma web para empresas gerenciarem SST: inventário de agentes de risco (GHE), planos de ação
+              gerados automaticamente, laudos técnicos em PDF e dashboard de indicadores.
+            </p>
+            <ul class="card__tags">
+              <li>React</li><li>TypeScript</li><li>Node.js</li><li>Prisma</li><li>PostgreSQL</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--private">● Projeto privado</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lotuz Scout -->
+        <div class="project-row">
+          <div class="project-row__media card__media--browser">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">lotuz.app</span>
+            </div>
+            <img src="assets/img/projects/lotuz-scout.jpg" alt="Tela inicial do Lotuz Scout, com análise de sentimento de reviews">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>Lotuz Scout</h3>
+            <p class="card__tagline">Inteligência de produto com IA para vendedores da Amazon</p>
+            <p class="card__desc">
+              Analisa reviews e concorrência de produtos na Amazon em tempo real (scraping próprio, sem API paga) e
+              devolve uma decisão clara — "vale testar ou não" — em segundos, com calculadora de margem e geração
+              de criativos de anúncio.
+            </p>
+            <ul class="card__tags">
+              <li>Next.js</li><li>TypeScript</li><li>Python</li><li>Vercel</li>
+            </ul>
+            <div class="card__footer">
+              <a href="https://zerion-xi.vercel.app" target="_blank" rel="noopener">Ver ao vivo ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Painel Financeiro -->
+        <div class="project-row">
+          <div class="project-row__media card__media--browser">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">painel-financeiro.app</span>
+            </div>
+            <img src="assets/img/projects/painel-financeiro.jpg" alt="Dashboard do Painel Financeiro">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>Painel Financeiro</h3>
+            <p class="card__tagline">Dashboard pessoal de finanças com projeção automática</p>
+            <p class="card__desc">
+              Controle financeiro pessoal com importação de extratos, controle de dívidas, metas, calendário de
+              contas e projeção dos próximos meses, com insights automáticos sobre os gastos.
+            </p>
+            <ul class="card__tags">
+              <li>React</li><li>Vite</li><li>Tailwind</li><li>Supabase</li>
+            </ul>
+            <div class="card__footer">
+              <a href="https://painel-financeiro-kappa.vercel.app" target="_blank" rel="noopener">Ver ao vivo ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- WinTech -->
+        <div class="project-row">
+          <div class="project-row__media card__media--browser">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">wintech.com.br (demo)</span>
+            </div>
+            <img src="assets/img/projects/wintech.jpg" alt="Loja demo da WinTech, modelo streetwear">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>WinTech</h3>
+            <p class="card__tagline">Demo de painel administrativo para lojas virtuais</p>
+            <p class="card__desc">
+              Prévia funcional de um painel administrativo para lojas virtuais gerenciarem pedidos, produtos e
+              métricas — projeto de agência, com dados fictícios.
+            </p>
+            <ul class="card__tags">
+              <li>Next.js</li><li>TypeScript</li><li>Tailwind</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--private">● Demo de cliente</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lari -->
+        <div class="project-row">
+          <div class="project-row__media card__media--browser">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">lari.com.br</span>
+            </div>
+            <img src="assets/img/projects/lari.jpg" alt="Landing page da Lari, amiga virtual para idosos">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>Lari</h3>
+            <p class="card__tagline">Landing page de uma assistente virtual para idosos</p>
+            <p class="card__desc">
+              Página de captação de lista de espera para a Lari, uma "amiga virtual" que acompanha idosos via
+              WhatsApp. Pré-lançamento — HTML, CSS e JavaScript puro, sem build.
+            </p>
+            <ul class="card__tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--private">● Projeto privado</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Automação com IA -->
+      <h3 class="subgroup-title"><span class="subgroup-num">02</span> Automação com IA</h3>
+      <div class="projects-list">
+
+        <!-- MyCut.AI -->
+        <div class="project-row">
+          <div class="project-row__media card__media--brand">
+            <img src="assets/img/projects/mycut-logo.png" alt="Logo do MyCut.AI">
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code + Claude API</span>
+            <h3>MyCut.AI</h3>
+            <p class="card__tagline">App desktop que transforma vídeos longos em cortes virais, sozinho</p>
+            <p class="card__desc">
+              Baixa o melhor vídeo entre os canais acompanhados, transcreve, seleciona os melhores trechos com IA,
+              corta, legenda e publica automaticamente no YouTube em horário programado — todo dia, sem intervenção.
+            </p>
+            <ul class="card__tags">
+              <li>Tauri</li><li>Rust</li><li>React</li><li>Python</li><li>FastAPI</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--private">● Projeto privado</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TopClipper -->
+        <div class="project-row">
+          <div class="project-row__media card__media--code">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+              <span class="browser-url">highlight_detector.py</span>
+            </div>
+            <pre class="code-block"><span class="c-com">$ python highlight_detector.py --video partida.mp4</span>
+<span class="c-ok">[ok]</span> pico de áudio detectado <span class="c-num">00:42</span>
+<span class="c-ok">[ok]</span> corte de cena confirmado <span class="c-num">00:44</span>
+<span class="c-ok">[ok]</span> top 5 momentos rankeados
+<span class="c-key">›</span> publicando no n8n workflow<span class="c-blink">_</span></pre>
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>TopClipper</h3>
+            <p class="card__tagline">Gerador automático de vídeos "Top 5" a partir de clipes</p>
+            <p class="card__desc">
+              Extensão do MyCut.AI: detecta o momento exato de um evento em um vídeo (pico de áudio + corte de
+              cena), monta um ranking editado dos 5 melhores e publica via workflow automatizado em n8n.
+            </p>
+            <ul class="card__tags">
+              <li>Python</li><li>OpenCV</li><li>n8n</li><li>FastAPI</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--private">● Projeto privado</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Apps Mobile -->
+      <h3 class="subgroup-title"><span class="subgroup-num">03</span> Apps mobile</h3>
+      <div class="projects-list">
+
+        <!-- Inventário NR-33/35 -->
+        <div class="project-row">
+          <div class="project-row__media card__media--phones">
+            <div class="phone-frame">
+              <img src="assets/img/projects/inventario-nr33-01.png" alt="Tela de login do app Inventário NR-33">
+            </div>
+            <div class="phone-frame">
+              <img src="assets/img/projects/inventario-nr33-02.png" alt="Formulário de cadastro de espaço confinado">
+            </div>
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>Inventário NR-33 / NR-35</h3>
+            <p class="card__tagline">App de campo offline-first para inspeção de espaços confinados</p>
+            <p class="card__desc">
+              App mobile em Flutter integrado a uma API própria (FastAPI) para técnicos de segurança cadastrarem
+              espaços confinados em campo — mesmo sem internet — e gerarem laudos técnicos em PDF automaticamente.
+              Parte do ecossistema SafeSST.
+            </p>
+            <ul class="card__tags">
+              <li>Flutter</li><li>Dart</li><li>SQLCipher</li><li>FastAPI</li><li>PostgreSQL</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--live">● API em produção</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Memoir -->
+        <div class="project-row">
+          <div class="project-row__media card__media--phones">
+            <div class="phone-frame">
+              <img src="assets/img/projects/memoir-login.jpg" alt="Tela de login do app Memoir">
+            </div>
+            <div class="phone-frame">
+              <img src="assets/img/projects/memoir-dashboard.jpg" alt="Tela inicial do app Memoir mostrando dias juntos e ações rápidas do casal">
+            </div>
+          </div>
+          <div class="project-row__body">
+            <span class="badge badge--ai">&lt;IA/&gt; Claude Code</span>
+            <h3>Memoir</h3>
+            <p class="card__tagline">App mobile para casais organizarem a relação</p>
+            <p class="card__desc">
+              Aplicativo React Native para casais: calendário compartilhado, linha do tempo de memórias, metas do
+              casal, lembretes de presentes e um assistente de IA dentro do app.
+            </p>
+            <ul class="card__tags">
+              <li>React Native</li><li>Expo</li><li>TypeScript</li>
+            </ul>
+            <div class="card__footer">
+              <span class="status status--dev">● Em desenvolvimento</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS INICIAIS -->
+  <section class="section" id="projetos-iniciais">
+    <div class="container">
+      <p class="eyebrow-mono">// 03 — antes da ia</p>
+      <span class="ai-tag ai-tag--muted">✋ Feito sozinho, sem IA</span>
+      <h2 class="section__title">Projetos iniciais</h2>
+      <p class="section__lead">
+        Os primeiros projetos que fiz para aprender a programar — sem ajuda de IA, no puro tentativa-e-erro com
+        HTML, CSS e JavaScript. Ficam aqui como registro de onde comecei.
+      </p>
+
+      <div class="grid grid--beginner">
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/personal.jpg" alt="Site Personal">
+          </div>
+          <div class="card__body">
+            <h3>Personal</h3>
+            <p class="card__desc">Site para divulgação de um personal trainer.</p>
+            <ul class="card__tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://sitepersonal1.netlify.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/emails.jpg" alt="Site Emails">
+          </div>
+          <div class="card__body">
+            <h3>Emails</h3>
+            <p class="card__desc">Formulário de envio de e-mails usando FormSubmit.</p>
+            <ul class="card__tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://siteenvioemails.netlify.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/playstation.jpg" alt="Página de vendas Playstation">
+          </div>
+          <div class="card__body">
+            <h3>Playstation</h3>
+            <p class="card__desc">Página de vendas animada, reunindo o que eu tinha aprendido até então.</p>
+            <ul class="card__tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://vendasplaystation.netlify.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/petbook.jpg" alt="Tela de login do PetBook">
+          </div>
+          <div class="card__body">
+            <h3>PetBook</h3>
+            <p class="card__desc">Rede social para donos de animais de estimação — projeto incompleto.</p>
+            <ul class="card__tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://petbookbrasil.netlify.app" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/lampada.jpg" alt="Projeto Lâmpada JS">
+          </div>
+          <div class="card__body">
+            <h3>Lâmpada</h3>
+            <p class="card__desc">Projeto simples para fixar conhecimentos em JavaScript.</p>
+            <ul class="card__tags"><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://lampadakewin.netlify.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--beginner">
+          <div class="card__media card__media--browser card__media--muted">
+            <div class="browser-bar">
+              <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            </div>
+            <img src="assets/img/beginner/gymbox.jpg" alt="Site GymBox">
+          </div>
+          <div class="card__body">
+            <h3>GymBox</h3>
+            <p class="card__desc">Site para divulgação de um personal trainer.</p>
+            <ul class="card__tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card__footer">
+              <a href="https://gymboxsite.netlify.app/" target="_blank" rel="noopener">Ver projeto ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section--alt" id="contato">
+    <div class="container contact">
+      <p class="eyebrow-mono" style="justify-content:center;">// 04 — contato</p>
+      <h2 class="section__title">Vamos conversar?</h2>
+      <p class="section__lead">Aberto a oportunidades, freelas e parcerias.</p>
+      <div class="contact__links">
+        <a href="mailto:kewin.caue@hotmail.com" class="btn btn--primary">E-mail</a>
+        <a href="https://wa.me/5519993025141" target="_blank" rel="noopener" class="btn btn--ghost">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/kewin-cau%C3%AA/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+        <a href="https://github.com/Kewincaue" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Kewin Cauê. Feito com <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
